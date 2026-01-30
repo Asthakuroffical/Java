@@ -17,7 +17,7 @@ public class Sorting_Algo{
             }
             // in best case when array is sorted we get O(n) TC
             if(swap == 0){
-                return;
+                break;
             }
         }
         print(arr);
