@@ -6,7 +6,7 @@ public class Sorting_Algo{
         // Bubble Sort: Time → Best O(n), Avg/Worst O(n²), Space → O(1)
         // In bubbleSort Big Value come first 
         for(int i =0; i<n-1; i++){
-            int swap = 0
+            int swap = 0;
             for(int j = 0; j<n-1-i; j++){
                 if(arr[j] < arr[j+1]){
                     int temp = arr[j];
